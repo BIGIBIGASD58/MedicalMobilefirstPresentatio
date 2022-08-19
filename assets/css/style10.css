@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BODY-PG2 */
+
+body {
+    background-image: url("/assets/img/CMB-PG10/background.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    animation: btn-animation 1s ease;
+    background-color: black;
+
+}
+
+@keyframes btn-animation {
+    0% {
+        margin-bottom: 0%;
+        opacity: 0%;
+    }
+
+    10% {
+        margin-top: 5%
+    }
+}
+
+/* BODY */
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 48px;
+}
+
+.logo-pg4 {
+    width: 100%;
+    max-width: 75px;
+}
+
+/* HEADER */
+
+/* SECTION */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ARCTICLE */
+
+article {
+    margin: -30px 59px;
+}
+
+.titulo-1 {
+    margin: 14px 0 1px 2px;
+    font-size: 1.8rem;
+    color: #00a8e0;
+}
+
+.titulo-2 {
+    font-size: 1.8rem;
+    color: #02729a;
+    margin: 0 0 2px 2px;
+}
+
+.titulo-3 {
+    margin-top: -6px;
+    font-size: 1.8rem;
+    color: #02729a;
+    margin: 0 0 -2px 2px;
+}
+
+.titulo-4 {
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    margin: 48px 0 0 -1px;
+}
+.titulo-5 {
+    font-size: 11px;
+    font-weight:100;
+    color: #fff;
+    margin: 1px 0 0 -1px;
+}
+.titulo-6 {
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    margin: 2px 0 0 -1px;
+}
+
+/* ARCTICLE */
+
+/* SQUARE-PG2 */
+
+.square {
+    display: flex;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.photo {
+    border: 6px solid #0076a0;
+
+    border-radius: 40px;
+
+    padding: 111px 106px 110px 110px;
+
+    background-image: url(/assets/img/CMB-PG10/download.webp);
+
+    background-size: 378px 667px;
+
+    background-repeat: no-repeat;
+
+    background-position: 74% 65%;
+}
+
+.icone {
+    margin-left: -309px;
+
+    opacity: 1;
+
+    padding: 81px;
+
+    background-image: url(/assets/img/CMB-PG10/icone.png);
+
+    background-size: 82px;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+
+.acticle-square{
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 24px 0 0 58px;
+}
+
+/* SQUARE-PG2 */
+/* FOOTER */
+
+footer {
+    display: flex;
+    margin: 30px 0 0 58px;
+    flex-wrap: wrap;
+}
+
+.titulo-8{
+    font-size: 10px;
+}
+
+.left-right {
+    margin: -2px 0 0 116px;
+}
+
+.left-right a {
+    text-decoration: none;
+}
+
+.left {
+    background-image: url(/assets/img/lefthover.png);
+    background-size: 18px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+
+.left:hover {
+    background-image: url(/assets/img/lefthover.png);
+
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+
+.left:active {
+    transform: translateY(5px);
+}
+
+.right {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-image: url(/assets/img/right.png);
+    background-size: 18px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+
+.right:hover {
+    background-image: url(/assets/img/righthover.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+
+.right:active {
+    transform: translateY(5px);
+}
+
+/* /FOOTER */
